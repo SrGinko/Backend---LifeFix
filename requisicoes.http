@@ -1,0 +1,28 @@
+GET http://localhost:3001/usuario/
+
+###
+POST http://localhost:3001/usuario/
+content-type: application/json
+
+{
+    "nome": "Rianny Santos",
+    "email": "ajaxfodadasgalaxias@gmail.com",
+    "senha": "pedrogostoso123"
+}
+####
+PATCH http://localhost:3001/usuario/1
+content-type: application/json
+
+{
+    "nome": "Tombirama",
+    "email": "tombiramasolatodos@gmail.com",
+    "senha": "uchirabomeuchiramorto"
+}
+
+###
+GET http://localhost:3001/usuario/2
+
+###
+DELETE http://localhost:3001/usuario/3
+
+
